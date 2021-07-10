@@ -15,11 +15,11 @@ C:/Users/Gabriel/Documents/Unity/Cards
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52466
+64365
 Successfully changed project path to: C:/Users/Gabriel/Documents/Unity/Cards
 C:/Users/Gabriel/Documents/Unity/Cards
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 310.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,16 +35,632 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.049112 seconds.
+Registered in 0.001922 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 22.013 seconds
+- Completed reload, in  1.046 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.437978 seconds.
+Registered in 0.003927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2514.
+Total: 2.544400 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.103200 ms  DeleteObjects: 0.158800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG
+  artifactKey: Guid(84931a92c9c76594da1b4178dce04dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG using Guid(84931a92c9c76594da1b4178dce04dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9f4e70e140709f6b84cfd1ad4cdafa') in 0.070527 seconds 
+  Import took 0.080797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4
+  artifactKey: Guid(cccb5ec6aee3cd24b804608873ae4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4 using Guid(cccb5ec6aee3cd24b804608873ae4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fef5e1d7b41ea6faaf45adfd808904') in 0.027645 seconds 
+  Import took 0.030472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3
+  artifactKey: Guid(6afb335dfb08d4f4d99e9690e09ad925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3 using Guid(6afb335dfb08d4f4d99e9690e09ad925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de68067f417b53e8f8ad33b35399afdd') in 0.026599 seconds 
+  Import took 0.039767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.199826 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2
+  artifactKey: Guid(f4a35852f23e65d4aa39744faa8c2bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2 using Guid(f4a35852f23e65d4aa39744faa8c2bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c8a36e588844bf6cb6262efd065a5a') in 0.027387 seconds 
+  Import took 0.178822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.663440 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1
+  artifactKey: Guid(1e203d373e2f1a74988ad0d416a73c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1 using Guid(1e203d373e2f1a74988ad0d416a73c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ef25afe4abb14f205518acedd8b4e9') in 0.026003 seconds 
+  Import took 0.029746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302702 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/game_background_1.png
+  artifactKey: Guid(d7f1fb0ed994fb44eae6bb6ea666503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/game_background_1.png using Guid(d7f1fb0ed994fb44eae6bb6ea666503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ecf3798849b2e4fe9c2b41b97fa0af') in 0.381685 seconds 
+  Import took 0.399707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.275350 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/back_decor.png
+  artifactKey: Guid(468a2a1339260824ab8281957d615a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/back_decor.png using Guid(468a2a1339260824ab8281957d615a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dd6c3f06ee0a07e82a59a1b2d79f61') in 0.038158 seconds 
+  Import took 0.050377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/back_land.png
+  artifactKey: Guid(6bf43b6c49df084469f3a99f7b652fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/back_land.png using Guid(6bf43b6c49df084469f3a99f7b652fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ef58b435094f680f3846f6be881cb2') in 0.037154 seconds 
+  Import took 0.046359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/back_land.png
+  artifactKey: Guid(76ed73706d3b0b143953908e1c34d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/back_land.png using Guid(76ed73706d3b0b143953908e1c34d0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbd32d88da39a509ae35cf21e68dbfe') in 0.034456 seconds 
+  Import took 0.038291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/back_decor.png
+  artifactKey: Guid(9841df27d5accda4aaeb05f2b8db7b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/back_decor.png using Guid(9841df27d5accda4aaeb05f2b8db7b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc30eeb4a27756d166606e73d5cbf93') in 0.035640 seconds 
+  Import took 0.040090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/back_decor.png
+  artifactKey: Guid(396025d10da9d724f9a52d64fa3c5b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/back_decor.png using Guid(396025d10da9d724f9a52d64fa3c5b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ade9bc47ebcd3c0f728f517bd2271f') in 0.035990 seconds 
+  Import took 0.040261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/back_land.png
+  artifactKey: Guid(d3ac215f10a0f5f47939834387c6a769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/back_land.png using Guid(d3ac215f10a0f5f47939834387c6a769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b660443e1be76f2d8f3e5c245c35203a') in 0.036506 seconds 
+  Import took 0.040137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/back_decor.png
+  artifactKey: Guid(468a2a1339260824ab8281957d615a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/back_decor.png using Guid(468a2a1339260824ab8281957d615a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dd6c3f06ee0a07e82a59a1b2d79f61') in 0.036398 seconds 
+  Import took 0.040445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/back_decor.png
+  artifactKey: Guid(e303e23c3a253ec49a870cbd1bd7dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/back_decor.png using Guid(e303e23c3a253ec49a870cbd1bd7dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a04a73a360e14d87a929d36e238ea') in 0.033936 seconds 
+  Import took 0.037790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/back_land.png
+  artifactKey: Guid(3611b8052b359494fafa6ac20a30127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/back_land.png using Guid(3611b8052b359494fafa6ac20a30127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d1b68ac192dba679ef809751142f3b') in 0.034281 seconds 
+  Import took 0.038274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/back_decor.png
+  artifactKey: Guid(e303e23c3a253ec49a870cbd1bd7dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/back_decor.png using Guid(e303e23c3a253ec49a870cbd1bd7dc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48a04a73a360e14d87a929d36e238ea') in 0.034056 seconds 
+  Import took 0.037845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/back_land.png
+  artifactKey: Guid(3611b8052b359494fafa6ac20a30127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/back_land.png using Guid(3611b8052b359494fafa6ac20a30127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d1b68ac192dba679ef809751142f3b') in 0.033477 seconds 
+  Import took 0.037376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.707399 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/battleground.png
+  artifactKey: Guid(79e03f48bc969684c904ae3c90a2e566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/battleground.png using Guid(79e03f48bc969684c904ae3c90a2e566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5446263134b43d4e74a16d445dee406') in 0.035063 seconds 
+  Import took 0.038843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/battleground.png
+  artifactKey: Guid(1ebbdf9b9c3bf324e84441f7a2ec0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/battleground.png using Guid(1ebbdf9b9c3bf324e84441f7a2ec0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0896ae5741bebaf950d289be0a8e7afd') in 0.039984 seconds 
+  Import took 0.043637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002215 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/battleground.png
+  artifactKey: Guid(1ebbdf9b9c3bf324e84441f7a2ec0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/battleground.png using Guid(1ebbdf9b9c3bf324e84441f7a2ec0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0896ae5741bebaf950d289be0a8e7afd') in 0.037435 seconds 
+  Import took 0.041027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.069416 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/battleground.png
+  artifactKey: Guid(f18536acb1b9fd841936a2f5d5d572f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/battleground.png using Guid(f18536acb1b9fd841936a2f5d5d572f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed9037254293dd0c7a825ca445b5034') in 0.035842 seconds 
+  Import took 0.039698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/battleground.png
+  artifactKey: Guid(bab4db6580970694e97fb79d9bcfeca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/battleground.png using Guid(bab4db6580970694e97fb79d9bcfeca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf36d312b8203468e5dd5fba3f9601c') in 0.033395 seconds 
+  Import took 0.036642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/battleground.png
+  artifactKey: Guid(f18536acb1b9fd841936a2f5d5d572f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/battleground.png using Guid(f18536acb1b9fd841936a2f5d5d572f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed9037254293dd0c7a825ca445b5034') in 0.034593 seconds 
+  Import took 0.038912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/battleground.png
+  artifactKey: Guid(bab4db6580970694e97fb79d9bcfeca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/battleground.png using Guid(bab4db6580970694e97fb79d9bcfeca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf36d312b8203468e5dd5fba3f9601c') in 0.035738 seconds 
+  Import took 0.039277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet back bw.png
+  artifactKey: Guid(a661b4550e71ee84eb0680d842486b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet back bw.png using Guid(a661b4550e71ee84eb0680d842486b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc0b76ef04adb328ab19f6df3445dd1') in 0.040115 seconds 
+  Import took 0.065961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet back.png
+  artifactKey: Guid(98d595a3c954b014e9a79d45e2b352bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet back.png using Guid(98d595a3c954b014e9a79d45e2b352bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7317aae406059f84df09477ed0e055') in 0.044582 seconds 
+  Import took 0.047855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001220 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet back.png
+  artifactKey: Guid(98d595a3c954b014e9a79d45e2b352bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet back.png using Guid(98d595a3c954b014e9a79d45e2b352bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7317aae406059f84df09477ed0e055') in 0.040327 seconds 
+  Import took 0.044488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229715 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet front bw.png
+  artifactKey: Guid(f67b4bee8498608448a9792101135ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet front bw.png using Guid(f67b4bee8498608448a9792101135ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b62d7906f88b1281b38180c276eb46') in 0.035940 seconds 
+  Import took 0.040081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet front bw hollow.png
+  artifactKey: Guid(0c2e4136e78b5734a801f30251597804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet front bw hollow.png using Guid(0c2e4136e78b5734a801f30251597804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a65953b59cdc0df558047d156cd91a2') in 0.038879 seconds 
+  Import took 0.042858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet print back.png
+  artifactKey: Guid(be160789ad3ca484b9d015fccc6f6e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet print back.png using Guid(be160789ad3ca484b9d015fccc6f6e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064d953f76cbc843165dcafd7dfd6b53') in 0.036371 seconds 
+  Import took 0.041315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet front bw.png
+  artifactKey: Guid(f67b4bee8498608448a9792101135ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet front bw.png using Guid(f67b4bee8498608448a9792101135ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b62d7906f88b1281b38180c276eb46') in 0.038478 seconds 
+  Import took 0.042490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet front v1.png
+  artifactKey: Guid(7561b00dee1674941b4edd3ffbacbfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet front v1.png using Guid(7561b00dee1674941b4edd3ffbacbfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606fb7d9a73df78b56b0b90da8fcd6de') in 0.038798 seconds 
+  Import took 0.041922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet front v2.png
+  artifactKey: Guid(facf8bb85ffece1439d1de1c97d770d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet front v2.png using Guid(facf8bb85ffece1439d1de1c97d770d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bdbfbd55fd0883c8f8d9845e8ea388') in 0.037837 seconds 
+  Import took 0.078968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet front hollow.png
+  artifactKey: Guid(3ccb8a55cc0cb8448879f29e2569c060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet front hollow.png using Guid(3ccb8a55cc0cb8448879f29e2569c060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50405bfb0d819866d3ba30e7ad8b21e') in 0.040334 seconds 
+  Import took 0.077549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.131319 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet print back bw.png
+  artifactKey: Guid(bce315a8f113b9c44b2d73bc137563e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet print back bw.png using Guid(bce315a8f113b9c44b2d73bc137563e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f370b68c52f92a7ee7d0daa4575c03') in 0.035009 seconds 
+  Import took 0.067302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/front_decor.png
+  artifactKey: Guid(33b2c7d2be8af8a4eaa2cf3d6afb9bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/front_decor.png using Guid(33b2c7d2be8af8a4eaa2cf3d6afb9bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a5f534140de7cb23299f39d01db010') in 0.039220 seconds 
+  Import took 0.043038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet print front bw.png
+  artifactKey: Guid(2a6c9ab3e13927b4c9ab72796cd077f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/card sheet print front bw.png using Guid(2a6c9ab3e13927b4c9ab72796cd077f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc8bdc6d606fb91942fa7f2062ab365') in 0.037591 seconds 
+  Import took 0.040907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/fullsheet print bw.png
+  artifactKey: Guid(207c881b0ce368f4aa9d63480ccc8fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/fullsheet print bw.png using Guid(207c881b0ce368f4aa9d63480ccc8fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749fa1e95a1c303d3c665e5c6c0110fd') in 0.035369 seconds 
+  Import took 0.061833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/front_decor.png
+  artifactKey: Guid(8f29488dc2c075844a42d56f1958c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/front_decor.png using Guid(8f29488dc2c075844a42d56f1958c11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78fe18db5812e653b29b9128ffedf99') in 0.037009 seconds 
+  Import took 0.045804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet print front v1.png
+  artifactKey: Guid(234f2178f8b88a74b8ee78e35c774c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet print front v1.png using Guid(234f2178f8b88a74b8ee78e35c774c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7b9bbb2515c6bb0554a0a21e379b5b') in 0.038655 seconds 
+  Import took 0.041529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/front_decor.png
+  artifactKey: Guid(a792846969cbb3a4ab3afce7a2efa37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/front_decor.png using Guid(a792846969cbb3a4ab3afce7a2efa37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f215f97f8357277b483a19418bf86c9f') in 0.035353 seconds 
+  Import took 0.046836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/charcter sheet card text compile.psd
+  artifactKey: Guid(96b2b2a8c2a07504ca0324222fe1ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/charcter sheet card text compile.psd using Guid(96b2b2a8c2a07504ca0324222fe1ebf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cd7a8e81672b421d2d96bd66137469') in 0.374023 seconds 
+  Import took 0.376942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/fullsheet bw.png
+  artifactKey: Guid(5a4ded5656597444fb05fb48f9a4a071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/black and white version/fullsheet bw.png using Guid(5a4ded5656597444fb05fb48f9a4a071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21d64468b209df0d29c9510cad857e0') in 0.058695 seconds 
+  Import took 0.077854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/front_decor.png
+  artifactKey: Guid(9a976da8c0b8b034d9555383f93402ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/front_decor.png using Guid(9a976da8c0b8b034d9555383f93402ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755b2db63a4797ca05260cfc8f231ff3') in 0.046517 seconds 
+  Import took 0.049539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet print front v2.png
+  artifactKey: Guid(7dc9168ae26d1ff449582e7f58434807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/card sheet print front v2.png using Guid(7dc9168ae26d1ff449582e7f58434807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024a6ede077cc03e2c6cbe433c102738') in 0.037256 seconds 
+  Import took 0.040693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/front_decor.png
+  artifactKey: Guid(9a976da8c0b8b034d9555383f93402ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/front_decor.png using Guid(9a976da8c0b8b034d9555383f93402ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755b2db63a4797ca05260cfc8f231ff3') in 0.032242 seconds 
+  Import took 0.036213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104242 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/game_background_2.png
+  artifactKey: Guid(ba990021e0bc72e4ba40014bc7c4e76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/game_background_2.png using Guid(ba990021e0bc72e4ba40014bc7c4e76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8cee86a50755c2a16aa4d21ef1fc92') in 0.033397 seconds 
+  Import took 0.066456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/game_background_3.png
+  artifactKey: Guid(aef4e638f5e194f4aa17ad7535c0a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/game_background_3.png using Guid(aef4e638f5e194f4aa17ad7535c0a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d6f31074ab9a56b8ded9e676b85744') in 0.038206 seconds 
+  Import took 0.041223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/game_background_3.png
+  artifactKey: Guid(aef4e638f5e194f4aa17ad7535c0a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/game_background_3.png using Guid(aef4e638f5e194f4aa17ad7535c0a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d6f31074ab9a56b8ded9e676b85744') in 0.035203 seconds 
+  Import took 0.039783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116320 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/game_background_4.png
+  artifactKey: Guid(a5a8166c3fe496a46bacf64bc5620ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/game_background_4.png using Guid(a5a8166c3fe496a46bacf64bc5620ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798e1b212be3cae4b935b350c300ea8e') in 0.034172 seconds 
+  Import took 0.037760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/ground_decor.png
+  artifactKey: Guid(994f78a7137257f49851e927de1caee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/layers/ground_decor.png using Guid(994f78a7137257f49851e927de1caee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec1f89f50959a095ac98dcb5f7abe82') in 0.039611 seconds 
+  Import took 0.062259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/game_background_4.png
+  artifactKey: Guid(a5a8166c3fe496a46bacf64bc5620ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_4/game_background_4.png using Guid(a5a8166c3fe496a46bacf64bc5620ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798e1b212be3cae4b935b350c300ea8e') in 0.034651 seconds 
+  Import took 0.038160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421059 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/ground_decor.png
+  artifactKey: Guid(23ddbdbdca19292438da654084553be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_2/layers/ground_decor.png using Guid(23ddbdbdca19292438da654084553be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64806b1f08014738b0c07d0641ec1bc0') in 0.035312 seconds 
+  Import took 0.040630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/ground_decor.png
+  artifactKey: Guid(bf7771a1a67c99d4b9901e77364c3acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/ground_decor.png using Guid(bf7771a1a67c99d4b9901e77364c3acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3d1a4c03befd0f74addb38279fe764') in 0.044236 seconds 
+  Import took 0.048034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/ground_decor.png
+  artifactKey: Guid(bf7771a1a67c99d4b9901e77364c3acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_3/layers/ground_decor.png using Guid(bf7771a1a67c99d4b9901e77364c3acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3d1a4c03befd0f74addb38279fe764') in 0.036961 seconds 
+  Import took 0.040598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033809 seconds.
+  path: Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/ground_decor.png
+  artifactKey: Guid(2413ed3de1a7ee94e859e6a8c166b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-657149-free-elven-land-game-battle-backgrounds/PNG/game_background_1/layers/ground_decor.png using Guid(2413ed3de1a7ee94e859e6a8c166b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf72198a5842c9c8becfd7468374267') in 0.040522 seconds 
+  Import took 0.065368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/Tutorial for compiling/tutorial back.jpg
+  artifactKey: Guid(8c40d5b725830f94199df531157565f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/Tutorial for compiling/tutorial back.jpg using Guid(8c40d5b725830f94199df531157565f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac73dd6a371b0fdf379af9d231fc9c') in 0.067631 seconds 
+  Import took 0.071023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.869819 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/Tutorial for compiling/tutorial front.jpg
+  artifactKey: Guid(95da9c941923d75499e66be9156b831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/Tutorial for compiling/tutorial front.jpg using Guid(95da9c941923d75499e66be9156b831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811fb701d94c7e8e6233f90d0c192e94') in 0.055131 seconds 
+  Import took 0.107701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005299 seconds.
+  path: Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/Tutorial for compiling/tutorial front.jpg
+  artifactKey: Guid(95da9c941923d75499e66be9156b831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TornioDuva's card sheet template/TornioDuva's card sheet template/Tutorial for compiling/tutorial front.jpg using Guid(95da9c941923d75499e66be9156b831e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811fb701d94c7e8e6233f90d0c192e94') in 0.068877 seconds 
+  Import took 0.075557 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 2.445300 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.058500 ms  DeleteObjects: 0.114100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 282.406837 seconds.
+  path: Assets/Prefabs/Background.prefab
+  artifactKey: Guid(8f31fd98bf7696c4898fb70caf129ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Background.prefab using Guid(8f31fd98bf7696c4898fb70caf129ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fb38df74214d8eef0c9e87c8098b8c') in 0.057982 seconds 
+  Import took 0.092846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefabs/Enemy Area.prefab
+  artifactKey: Guid(13ee284b38fa4c24c8ad531bc48152fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Area.prefab using Guid(13ee284b38fa4c24c8ad531bc48152fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4286aa07de6eef4d1e39c3eeeae11e50') in 0.035998 seconds 
+  Import took 0.069413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Prefabs/Drop Zone.prefab
+  artifactKey: Guid(5f92ea3960ec49e4596af75bd2243b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Drop Zone.prefab using Guid(5f92ea3960ec49e4596af75bd2243b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7402df0d23a75d041f31a1db6625a558') in 0.029448 seconds 
+  Import took 0.032649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefabs/Player Area.prefab
+  artifactKey: Guid(d9e44b832ebfd4e43abde4813cc31e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Area.prefab using Guid(d9e44b832ebfd4e43abde4813cc31e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2902d27d0d3409e01180ba1c4d3ef0') in 0.029474 seconds 
+  Import took 0.032859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.315660 seconds.
+  path: Assets/Prefabs/Card1.prefab
+  artifactKey: Guid(c2da0d5a1337f804eaf4793d893094d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card1.prefab using Guid(c2da0d5a1337f804eaf4793d893094d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ab86137ccc3a35930d6b3d95e5a69a') in 0.043837 seconds 
+  Import took 0.048838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003930 seconds.
+  path: Assets/Prefabs/Card1.prefab
+  artifactKey: Guid(c2da0d5a1337f804eaf4793d893094d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card1.prefab using Guid(c2da0d5a1337f804eaf4793d893094d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ab86137ccc3a35930d6b3d95e5a69a') in 0.047132 seconds 
+  Import took 0.052117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.551274 seconds.
+  path: Assets/Prefabs/Card2.prefab
+  artifactKey: Guid(eeae3d35a3b83324e99de15a62765bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Card2.prefab using Guid(eeae3d35a3b83324e99de15a62765bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcc8704d61960d46ce70b83cbe2f7e3') in 0.279633 seconds 
+  Import took 0.283923 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 3.403100 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.094900 ms MarkObjects: 2.936900 ms  DeleteObjects: 0.140300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
