@@ -9,10 +9,13 @@ public class DrawCards : MonoBehaviour
     [SerializeField]
     private Transform playArea;
     private int numberOfCards;
+
+    private bool isCardDrawn;
     // Start is called before the first frame update
     void Start()
     {
         numberOfCards = 5;
+        isCardDrawn = false;
     }
 
     // Update is called once per frame
@@ -23,10 +26,14 @@ public class DrawCards : MonoBehaviour
 
     public void DrawPlayerCards()
     {
-        for (int i = 0; i < numberOfCards; i++)
+        if (!isCardDrawn)
         {
-            GameObject cardDrawm = Instantiate(cards[Random.Range(0, cards.Length)], Vector2.zero, Quaternion.identity);
-            cardDrawm.transform.SetParent(playArea, false);
+            for (int i = 0; i < numberOfCards; i++)
+            {
+                GameObject cardDrawm = Instantiate(cards[Random.Range(0, cards.Length)], Vector2.zero, Quaternion.identity);
+                cardDrawm.transform.SetParent(playArea, false);
+            }
+            isCardDrawn = true;
         }
     }
 }
